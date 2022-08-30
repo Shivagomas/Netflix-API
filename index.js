@@ -38,7 +38,7 @@ process.on('unhandledRejection', (ex) => {
     process.exit(1);
 });
 
-winston.add(new winston.transports.File({ filename: 'logfile.log'}));
+winston.add(new winston.transports.File({ filename: 'logfile.log\n'}));
 
 const db = config.get("db");
 mongoose.connect(db)
