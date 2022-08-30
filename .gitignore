@@ -1,2 +1,2 @@
-node_modules
-logfile
+/node_modules
+/logfile
