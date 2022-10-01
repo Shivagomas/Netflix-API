@@ -7,7 +7,7 @@ const cors = require('cors')
 const winston = require('winston');
 
 const movies = require("./routes/movie");
-const category = require("./routes/category");
+const category = require("./routes/genre");
 const home = require('./routes/home');
 const users = require('./routes/users');
 const auth = require("./routes/auth");
